@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/portfolio/CopilotIndices/17.13.441.19478
+/Student Management System/obj/Release/net8.0
+/Student Management System/obj/Debug/net8.0
+/Student Management System
+/.vs/portfolio/FileContentIndex
+/.vs/portfolio/v17/TestStore/0
