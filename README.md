@@ -1,42 +1,43 @@
 #  Student Management System (C#)
 
-Этот проект демонстрирует работу с классом **Student**, который моделирует информацию о студентах, их оценках и предоставляет методы для анализа успеваемости по группам.
+This project demonstrates the use of a Student class that models student information, their grades, and provides methods for analyzing academic performance by groups.
 
-##  Описание
+##  Description
 
-Класс `Student` хранит данные о:
-- фамилии студента,
-- номере группы,
-- списке оценок.
+The `Student` class stores:
+- the student's surname,
+- the group number,
+- the list of grades.
 
-Также реализованы методы для:
-- вывода студентов по группам,
-- подсчёта отличников,
-- поиска студентов с одними двойками,
-- доступа к отдельным оценкам через индексатор.
+It also includes methods for:
+- displaying students by groups,
+- counting top-performing students,
+- finding students with only failing grades,
+- accessing individual grades through an indexer.
 
-Проект можно использовать для практики по **ООП в C#**, работе с **массивами**, **LINQ** и **статическими методами**.
+The project can be used for practicing OOP in C#, working with arrays, LINQ, and static methods.
 
-##  Возможности
+##  Features
 
-- Проверка, состоит ли студент только из двоек (`AllGradesTwo`)
-- Проверка, имеет ли студент только десятки (`AllGradesTen`)
-- Подсчёт количества отличников в каждой группе (`CountExcellentStudents`)
-- Вывод студентов по конкретной группе (`ResultSession`)
-- Поиск и вывод студентов, у которых все оценки равны 2 (`PrintAllStudentsWithTwo`)
-- Индексатор для доступа к отдельным оценкам (`this[int index]`)
+- Check if a student has only failing grades (`AllGradesTwo`)
+- Check if a student has only top grades (`AllGradesTen`)
+- Count the number of excellent students in each group (`CountExcellentStudents`)
+- Display students from a specific group (`ResultSession`)
+- Find and display students whose grades are all 2 (`PrintAllStudentsWithTwo`)
+- Indexer for accessing individual grades (`this[int index]`)
 
 
-## Основные концепции
-Инкапсуляция — поля студента защищены свойствами Surname, NumberGroup, Grades.
+## Core Concepts
 
-Индексаторы — реализован доступ к отдельной оценке через student[i].
+Encapsulation — student fields are protected by properties Surname, NumberGroup and Grades.
 
-LINQ — используется для фильтрации и сортировки студентов.
+Indexers — access to individual grades is implemented via student[i].
 
-Статические методы — позволяют работать с массивом студентов без создания отдельных экземпляров класса.
+LINQ — used for filtering and sorting students.
 
-##  Пример использования
+Static methods — allow working with arrays of students without creating separate class instances.
+
+##  Example Usage
 
 ```csharp
 using System;
